@@ -37,7 +37,7 @@ Each project includes comprehensive setup instructions and Vercel deployment gui
 
 1. **Clone this repository**:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/vikky2810/vercel-demo-projects/
    cd vercel-demo-projects
    ```
 
@@ -61,3 +61,4 @@ Each project includes comprehensive setup instructions and Vercel deployment gui
 Once deployed, each project will have its own live URL that you can share and showcase.
 
 Happy coding! 🚀
+
