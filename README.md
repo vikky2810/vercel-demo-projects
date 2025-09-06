@@ -4,11 +4,12 @@ This repository contains three progressive demo projects showcasing different we
 
 ## Projects Overview
 
-### 1. [01-quote-generator](./01-quote-generator/) - Static JavaScript App
-A simple quote generator built with vanilla HTML, CSS, and JavaScript. Demonstrates:
+### 1. [01-Joke-generator](./01-joke-generator/) - Static JavaScript App
+A fun joke generator built with vanilla HTML, CSS, and JavaScript. Demonstrates:
 - Static site deployment
 - External API integration
 - Basic DOM manipulation
+- Interactive user experience with delayed animations
 
 ### 2. [02-react-counter](./02-react-counter/) - React SPA
 A counter application built with React, Vite, and Tailwind CSS. Demonstrates:

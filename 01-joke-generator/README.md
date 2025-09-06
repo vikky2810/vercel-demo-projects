@@ -1,14 +1,18 @@
-# Quote Generator
+# 💻 Programmer Joke Generator
 
-A simple and elegant quote generator built with vanilla HTML, CSS, and JavaScript. This project demonstrates static site development and external API integration.
+A fun and interactive programmer joke generator built with vanilla HTML, CSS, and JavaScript. This project demonstrates static site development and external API integration with a tech-focused humorous twist!
 
 ## Features
 
 - 🎯 Clean, responsive design
 - 📱 Mobile-friendly interface
-- 🎨 Beautiful gradient background and animations
-- 🔄 Fetches random quotes from [Quotable API](https://api.quotable.io/)
+- 🎨 Dark theme with GitHub-inspired design
+- 💻 Monospace font for that authentic coding feel
+- 😄 Fetches programming jokes from [Official Joke API](https://official-joke-api.appspot.com/)
 - ⚡ Fast loading with smooth transitions
+- 🎭 Two-part joke display (setup and punchline)
+- ⏰ Delayed punchline reveal for better comedic timing
+- 🚀 Tech-themed UI with coding aesthetics
 
 ## Setup Instructions
 
@@ -56,7 +60,7 @@ Then open `http://localhost:8000` in your browser.
 
 4. **Follow the prompts**:
    - Link to existing project? `N`
-   - Project name: `quote-generator` (or your preferred name)
+   - Project name: `joke-generator` (or your preferred name)
    - Directory: `./` (current directory)
    - Override settings? `N`
 
@@ -96,33 +100,44 @@ Then open `http://localhost:8000` in your browser.
 - **HTML5** - Semantic markup
 - **CSS3** - Modern styling with gradients and animations
 - **Vanilla JavaScript** - API integration and DOM manipulation
-- **Quotable API** - External quote data source
+- **Official Joke API** - External joke data source
 
 ## API Information
 
-This project uses the [Quotable API](https://api.quotable.io/) which provides:
-- Random inspirational quotes
-- Author information
+This project uses the [Official Joke API](https://official-joke-api.appspot.com/) which provides:
+- Programming-specific jokes with setup and punchline
+- Tech-focused humor for developers
 - No API key required
 - Free to use
+- CORS-friendly for web applications
+
+## How It Works
+
+1. **Click "🚀 Generate Joke"** - Triggers the API call for programming jokes
+2. **Setup Display** - Shows the programming joke setup immediately
+3. **Punchline Reveal** - Shows the punchline after 1 second delay
+4. **Smooth Animations** - Fade-in effects with tech-themed styling
 
 ## Customization
 
 Feel free to customize:
 - **Colors**: Modify the gradient in `styles.css`
+- **Timing**: Change the punchline delay in `script.js` (currently 1000ms)
 - **Fonts**: Change the font-family in the CSS
-- **API**: Replace with a different quote API
+- **API**: Replace with a different joke API
 - **Styling**: Adjust the design to match your preferences
 
 ## Troubleshooting
 
 **CORS Issues**: If you encounter CORS errors when opening the HTML file directly, use a local server instead.
 
-**API Not Working**: The Quotable API is free but has rate limits. If it's down, the app will show an error message.
+**API Not Working**: The Official Joke API is free but has rate limits. If it's down, the app will show an error message.
 
 **Button Not Working**: Make sure JavaScript is enabled in your browser.
 
 **Styling Issues**: Ensure all CSS files are in the same directory as the HTML file.
+
+**Jokes Not Funny**: That's not a bug, that's a feature! 😄 (But these are programming jokes, so they should be pretty good!)
 
 ## Next Steps
 
@@ -131,5 +146,15 @@ After deploying to Vercel, you can:
 - Add custom domain
 - Monitor analytics
 - Set up automatic deployments from Git
+- Add more joke categories
+- Implement joke rating system
 
-Happy coding! 🚀
+## Fun Facts
+
+- The API provides programming-specific jokes that developers will appreciate
+- Each joke has a setup and punchline structure perfect for tech humor
+- The delayed punchline reveal adds comedic timing
+- Perfect for learning API integration with a developer-friendly twist!
+- Dark theme and monospace font give it that authentic coding feel
+
+Happy coding and laughing! 💻😄🚀
