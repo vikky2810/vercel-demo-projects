@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programmer Joke Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>💻 Programmer Joke Generator</h1>
+        <h1>Programmer Joke Generator</h1>
+        <p class="subtitle">Get your daily dose of programming humor</p>
+        
         <div class="joke-container">
             <div id="joke-setup" class="joke-setup">
                 Click the button below to generate a programming joke!
             </div>
             <div id="joke-punchline" class="joke-punchline hidden"></div>
         </div>
+        
         <button id="generate-btn" class="generate-button">
-            🚀 Generate Joke
+            Generate Joke
         </button>
+        
         <div id="loading" class="loading hidden">
             Loading...
         </div>
